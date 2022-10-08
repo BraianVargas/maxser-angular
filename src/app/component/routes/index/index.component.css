@@ -1,20 +1,30 @@
 .showcase{
-    position: relative;
+    justify-content: center;
+    position : relative;
+    height: 100%;
 }
 .showcase img{
     width: 100%;
     height: 100%;
     position: absolute;
+    text-align: center;
     top: auto;
     left: auto;
     object-fit: cover;
+
 }
 .title{
     background-color: black;
-    font-size: 100px;
+    font-size: 150px;
     font-family: "BrownPro";
     color: white;
     mix-blend-mode: multiply;
     text-align: center;
-    
+
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    top: auto;
 }
