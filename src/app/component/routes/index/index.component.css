@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Zolano';
+    src: url("../../../../assets/fonts/zolano.ttf");
+}
+
 .showcase{
     justify-content: center;
     position : relative;
@@ -15,8 +20,8 @@
 }
 .title{
     background-color: black;
-    font-size: 150px;
-    font-family: "BrownPro";
+    font-size: 10vw;
+    font-family: 'Zolano', sans-serif;
     color: white;
     mix-blend-mode: multiply;
     text-align: center;
@@ -27,4 +32,28 @@
     justify-content: center;
     align-items: center;
     top: auto;
+}
+
+.video{
+    width: 50%;
+}
+
+#maxsoft{
+    width: 100%;
+    font-family:"BrownPro";
+    background-image: url("../../../../assets/img/maxsoft/fondo-maxsoft.webp");
+}
+.maxsoft-logo{
+    min-width: 200px; 
+    max-width: 550px;
+}
+
+
+@media (max-width:700px) {
+    .video{
+        display: none;
+    }
+    .title{
+        font-size: 20vw;
+    }
 }
