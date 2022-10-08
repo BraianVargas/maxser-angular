@@ -1,0 +1,48 @@
+* {
+  font-family: "BrownPro";
+}
+
+#btn-tienda {
+    color: white;
+    border-radius: 150px;
+    border: solid 2px #fe9000;
+    box-shadow: 0px 0px 30px #FE9000d3;
+    background-color: #e9650e;
+ }
+
+.flicker-fast {
+  animation: flicker 1.5s linear infinite;
+}
+
+
+
+
+@keyframes flicker {
+  0%,
+  20%,
+  22%,
+  60%,
+  62%,
+  70%,
+  100% {
+    /* text-shadow: none; */
+    box-shadow: 0px 0px 30px #FE9000d3;
+  }
+
+  30%,
+  40%,
+  50%,
+  65%,
+  80% {
+    box-shadow: 0px 0px 30px #fe900075;
+  }
+
+  20%,
+  21.999%,
+  63%,
+  63.999%,
+  65%,
+  69.999% {
+    box-shadow: 0px 0px 30px #00000075;
+  }
+}
