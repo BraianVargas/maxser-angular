@@ -1,3 +1,24 @@
+# REQUISITOS EN IMAGENES Y/O LOGOS
+Imagenes de productos: 
+     * Tipo de imagen: .webp
+     * Nombre de archivos: "product12.webp"
+     * Tamaño: (340px X 340px)
+
+
+
+Imagenes de banners:
+     * Tipo de imagen: .webp
+     * Nombre de archivos: "banner28.webp"
+     * Tamaño formato Mobil: (900px x 500px)
+     * Tamaño formato PC: (1750px x 500px)
+
+
+
+
+
+
+
+
 # MaxserAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
