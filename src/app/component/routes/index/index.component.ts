@@ -23,7 +23,7 @@ export class IndexComponent implements OnInit {
       {first:"",url:'assets/img/carousel/banners/banner6.webp'},
       {first:"",url:'assets/img/carousel/banners/banner7.webp'}
     ];
-    this.localImgMobile = [  
+    this.localImgMobile = [ 
       {first:"active",url:'assets/img/carousel/banners/mobil/banner1.webp'},
       {first:"",url:'assets/img/carousel/banners/mobil/banner2.webp'},
       {first:"",url:'assets/img/carousel/banners/mobil/banner3.webp'},
@@ -49,7 +49,6 @@ export class IndexComponent implements OnInit {
     ];
   }
 
-
   slides: any = [[]];
   chunk(arr: any, chunkSize: any) {
     let R = [];
@@ -62,10 +61,9 @@ export class IndexComponent implements OnInit {
 
   ngOnInit() {
     this.slides = this.chunk(this.localProductImg, 4);
-    if (window.screen.width <=400) { // 768px portrait
+    if (window.screen.width <= 450) { // 768px portrait
       this.mobile=true;
       this.pc=false;
     }
   }
-
 }
