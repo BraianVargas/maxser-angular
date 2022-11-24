@@ -16,7 +16,7 @@
     max-width: 550px;
 }
 .carousel-products{
-    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.747),  rgb(0, 0, 0)), url("../../../../assets/img/carousel/fondo-products.webp");
+    background-image: linear-gradient(rgba(95, 95, 95, 0.582), rgba(104, 104, 104, 0.685), rgba(100, 100, 100, 0.39),  rgba(104, 104, 104, 0.438)), url("../../../../assets/img/carousel/fondo-products.webp");
     background-size: cover;
     background-attachment:fixed;
     background-position: center;
@@ -27,7 +27,7 @@
     max-width: 250px;
     margin: auto;
     padding: .2em;
-    filter: drop-shadow(0 7px 15px rgba(0, 0, 0, 0.842));
+    filter: drop-shadow(5px 15px 5px rgb(0, 0, 0));
 }
 
 
