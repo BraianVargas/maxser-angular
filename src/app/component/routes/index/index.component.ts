@@ -61,7 +61,7 @@ export class IndexComponent implements OnInit {
 
   ngOnInit() {
     this.slides = this.chunk(this.localProductImg, 4);
-    if (window.screen.width <= 435) { // 768px portrait
+    if (window.screen.width <= 450) { // 768px portrait
       this.mobile=true;
       this.pc=false;
     }
