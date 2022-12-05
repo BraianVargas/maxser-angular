@@ -2,6 +2,10 @@
     font-family: 'Zolano';
     src: url("../../../../assets/fonts/zolano.ttf");
 }
+@font-face {
+    font-family: 'doctor-glitch';
+    src: url("../../../../assets/fonts/Doctor Glitch.otf");
+}
 #maxsoft{
     width: 100%;
     font-family:"BrownPro";
@@ -30,4 +34,75 @@
     filter: drop-shadow(5px 15px 5px rgb(0, 0, 0));
 }
 
+.gradient{
+    width: 100%;
+    background-color: #0e336d;
+    background-image: linear-gradient(270deg, #022357 8%, #0093E9 21%, #b7e5ff 33%, #fcffce 45%, #ffef95 66%, #ffb157 100%);
+}
 
+.gradient h3{
+    font-family: Zolano;
+    font-size: 3em;
+    font-style: bold;
+    vertical-align: center;
+}
+
+#ubicacion{
+    background-image: url("../../../../assets/img/pexels-lara-jameson-8828586.jpg"), linear-gradient(rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.589), rgba(0, 0, 0, 0.89));
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cont-redes,
+.cont-redes a,
+.cont-redes a:active,
+.cont-redes a:link,
+.cont-redes a:visited,
+.div-redes,
+.div-tel-fijo{
+    font-family: "Zolano";
+    color: white;
+    text-decoration: none;
+}
+
+.div-redes i:hover {
+    transition: transform 0.2s;
+    transform: translateY(-10px);
+}
+
+.bxl-instagram:hover {
+    background: rgb(143, 0, 199);
+    background: linear-gradient(218deg, rgba(143, 0, 199, 1) 20%, rgba(255, 0, 0, 1) 60%, rgba(255, 209, 0, 1) 100%);
+}
+
+.bxl-facebook:hover {
+    background: #3B5998;
+}
+
+.bxl-youtube:hover {
+    background: red;
+}
+
+.bxl-telegram:hover {
+    background: #0088cc;
+}
+
+.bxl-twitch:hover {
+    color: black;
+    background: #6441a5;
+}
+
+.bxl-tiktok:hover {
+    /* background: #242726; */
+    color: black;
+    background: rgb(0, 242, 234);
+    background: linear-gradient(135deg, rgb(0, 255, 247) 1%, rgb(18, 243, 236) 5%, rgb(255, 0, 0) 100%);
+}
+
+.div-redes i {
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 35px;
+}
